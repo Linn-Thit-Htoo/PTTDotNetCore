@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "PTTDotNetCore.ConsoleAppDay3/1.0.0": {
+        "runtime": {
+          "PTTDotNetCore.ConsoleAppDay3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PTTDotNetCore.ConsoleAppDay3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
