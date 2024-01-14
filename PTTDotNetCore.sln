@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTTDotNetCore.ConsoleAppDay
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTTDotNetCore.ConsoleAppDay2", "PTTDotNetCore.ConsoleAppDay2\PTTDotNetCore.ConsoleAppDay2.csproj", "{561373FD-A03A-4A48-923A-ECA00E4131E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTTDotNetCore.ConsoleAppDay3", "PTTDotNetCore.ConsoleAppDay3\PTTDotNetCore.ConsoleAppDay3.csproj", "{0274926C-9E7C-4ACF-80BB-69DC9E95DCE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTTDotNetCore.ConsoleAppDay3", "PTTDotNetCore.ConsoleAppDay3\PTTDotNetCore.ConsoleAppDay3.csproj", "{0274926C-9E7C-4ACF-80BB-69DC9E95DCE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTTDotNetCore.ConsoleAppDay4", "PTTDotNetCore.ConsoleAppDay4\PTTDotNetCore.ConsoleAppDay4.csproj", "{8869C977-01C3-4F38-8787-7A26B1BF0FBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework", "Homework", "{68ABFA1C-FE0B-4C7A-BC4E-68D7F605ECD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTTDotNetCore.ConsoleAppDay3HomeWork", "PTTDotNetCore.ConsoleAppDay3HomeWork\PTTDotNetCore.ConsoleAppDay3HomeWork.csproj", "{44333E1A-2C49-404C-93DA-BC0FFEBE2278}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +33,20 @@ Global
 		{0274926C-9E7C-4ACF-80BB-69DC9E95DCE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0274926C-9E7C-4ACF-80BB-69DC9E95DCE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0274926C-9E7C-4ACF-80BB-69DC9E95DCE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8869C977-01C3-4F38-8787-7A26B1BF0FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8869C977-01C3-4F38-8787-7A26B1BF0FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8869C977-01C3-4F38-8787-7A26B1BF0FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8869C977-01C3-4F38-8787-7A26B1BF0FBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44333E1A-2C49-404C-93DA-BC0FFEBE2278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44333E1A-2C49-404C-93DA-BC0FFEBE2278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44333E1A-2C49-404C-93DA-BC0FFEBE2278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44333E1A-2C49-404C-93DA-BC0FFEBE2278}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44333E1A-2C49-404C-93DA-BC0FFEBE2278} = {68ABFA1C-FE0B-4C7A-BC4E-68D7F605ECD3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C63C5935-F4DF-4EEE-8D34-058917FFF18D}

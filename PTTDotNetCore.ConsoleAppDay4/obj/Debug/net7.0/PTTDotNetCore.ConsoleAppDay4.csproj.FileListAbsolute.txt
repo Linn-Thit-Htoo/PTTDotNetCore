@@ -1,0 +1,15 @@
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay4\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay4.exe
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay4\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay4.deps.json
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay4\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay4.runtimeconfig.json
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay4\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay4.dll
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay4\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay4.pdb
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay4\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay4.csproj.AssemblyReference.cache
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay4\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay4.GeneratedMSBuildEditorConfig.editorconfig
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay4\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay4.AssemblyInfoInputs.cache
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay4\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay4.AssemblyInfo.cs
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay4\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay4.csproj.CoreCompileInputs.cache
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay4\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay4.dll
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay4\obj\Debug\net7.0\refint\PTTDotNetCore.ConsoleAppDay4.dll
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay4\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay4.pdb
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay4\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay4.genruntimeconfig.cache
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay4\obj\Debug\net7.0\ref\PTTDotNetCore.ConsoleAppDay4.dll

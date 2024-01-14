@@ -5,11 +5,12 @@
         public static void Main(string[] args) // main method which is the entry point of the program.
         {
             
-            Greeting();
+            Program program = new Program();
+            program.Greeting();
 
             Console.ReadKey(); // if found any key, the program will be stopped.
         }
-        public static void Greeting()
+        public void Greeting()
         {
             Console.WriteLine("Hello User!");
         }
