@@ -1,9 +1,7 @@
-﻿using System;
-
-public class Program
+﻿public class Program
 {
     public static int result = 0;
-    public static string str;
+    public static string str = "";
     public static int x;
     public static int y;
 
@@ -14,16 +12,10 @@ public class Program
         do
         {
             Console.WriteLine("Enter a first number:");
-            if (!int.TryParse(Console.ReadLine(), out int x))
-            {
-                Console.WriteLine("Please fill valid number");
-            }
+            Program.x = CHECK();
 
             Console.WriteLine("Enter a second number:");
-            if (!int.TryParse(Console.ReadLine(), out int y))
-            {
-                Console.WriteLine("Please fill valid number");
-            }
+            Program.y = CHECK();
 
             result = Sum(x, y);
             Console.WriteLine("The sum of two numbers: " + result);
@@ -35,10 +27,30 @@ public class Program
             Console.WriteLine("The div of two numbers: " + result);
 
             Console.WriteLine("Do you want to solve (yes/no)?");
-            str = Console.ReadLine().ToLower();
+            Program.str = Console.ReadLine().ToLower();
 
         } while (str != "no");
         Console.ReadKey();
+    }
+
+    public static int CHECK()
+    {
+        int number;
+
+        while (true)
+        {
+            string userInput = Console.ReadLine();
+            if (int.TryParse(userInput, out number))
+            {
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter a valid number.Try again!");
+                Console.WriteLine("Enter a  number:");
+            }
+        }
+        return number;
     }
 
     public static int Sum(int a, int b)
@@ -57,5 +69,4 @@ public class Program
     {
         return a / b;
     }
-
 }
