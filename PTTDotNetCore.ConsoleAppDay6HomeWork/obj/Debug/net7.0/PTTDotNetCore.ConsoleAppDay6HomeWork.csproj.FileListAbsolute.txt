@@ -1,0 +1,15 @@
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay6HomeWork\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay6HomeWork.exe
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay6HomeWork\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay6HomeWork.deps.json
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay6HomeWork\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay6HomeWork.runtimeconfig.json
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay6HomeWork\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay6HomeWork.dll
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay6HomeWork\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay6HomeWork.pdb
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay6HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay6HomeWork.csproj.AssemblyReference.cache
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay6HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay6HomeWork.GeneratedMSBuildEditorConfig.editorconfig
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay6HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay6HomeWork.AssemblyInfoInputs.cache
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay6HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay6HomeWork.AssemblyInfo.cs
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay6HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay6HomeWork.csproj.CoreCompileInputs.cache
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay6HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay6HomeWork.dll
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay6HomeWork\obj\Debug\net7.0\refint\PTTDotNetCore.ConsoleAppDay6HomeWork.dll
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay6HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay6HomeWork.pdb
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay6HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay6HomeWork.genruntimeconfig.cache
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay6HomeWork\obj\Debug\net7.0\ref\PTTDotNetCore.ConsoleAppDay6HomeWork.dll
