@@ -17,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTTDotNetCore.ConsoleAppDay
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTTDotNetCore.ConsoleAppDay5", "PTTDotNetCore.ConsoleAppDay5\PTTDotNetCore.ConsoleAppDay5.csproj", "{0B80237E-79A1-4E4D-B099-F912082053D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTTDotNetCore.ConsoleAppDay6", "PTTDotNetCore.ConsoleAppDay6\PTTDotNetCore.ConsoleAppDay6.csproj", "{9861D8C1-A50E-4508-A233-177B4992060F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTTDotNetCore.ConsoleAppDay6", "PTTDotNetCore.ConsoleAppDay6\PTTDotNetCore.ConsoleAppDay6.csproj", "{9861D8C1-A50E-4508-A233-177B4992060F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTTDotNetCore.ConsoleAppDay6HomeWork", "PTTDotNetCore.ConsoleAppDay6HomeWork\PTTDotNetCore.ConsoleAppDay6HomeWork.csproj", "{3CE5F07B-10B7-4D08-B0F1-AAAA28C6CC57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTTDotNetCore.ConsoleAppDay6HomeWork", "PTTDotNetCore.ConsoleAppDay6HomeWork\PTTDotNetCore.ConsoleAppDay6HomeWork.csproj", "{3CE5F07B-10B7-4D08-B0F1-AAAA28C6CC57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTTDotNetCore.ConsoleAppDay7", "PTTDotNetCore.ConsoleAppDay7\PTTDotNetCore.ConsoleAppDay7.csproj", "{C0B63C4E-11D6-49F2-AAE7-E2C569978501}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTTDotNetCore.ConsoleAppDay7", "PTTDotNetCore.ConsoleAppDay7\PTTDotNetCore.ConsoleAppDay7.csproj", "{C0B63C4E-11D6-49F2-AAE7-E2C569978501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTTDotNetCore.ConsoleAppDay8", "PTTDotNetCore.ConsoleAppDay8\PTTDotNetCore.ConsoleAppDay8.csproj", "{8770E92F-9ECF-4D57-8E51-217B19C5287D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{C0B63C4E-11D6-49F2-AAE7-E2C569978501}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0B63C4E-11D6-49F2-AAE7-E2C569978501}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0B63C4E-11D6-49F2-AAE7-E2C569978501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8770E92F-9ECF-4D57-8E51-217B19C5287D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8770E92F-9ECF-4D57-8E51-217B19C5287D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8770E92F-9ECF-4D57-8E51-217B19C5287D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8770E92F-9ECF-4D57-8E51-217B19C5287D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
