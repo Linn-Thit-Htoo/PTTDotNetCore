@@ -25,7 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTTDotNetCore.ConsoleAppDay
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTTDotNetCore.ConsoleAppDay8", "PTTDotNetCore.ConsoleAppDay8\PTTDotNetCore.ConsoleAppDay8.csproj", "{8770E92F-9ECF-4D57-8E51-217B19C5287D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTTDotNetCore.ConsoleAppDay9", "PTTDotNetCore.ConsoleAppDay9\PTTDotNetCore.ConsoleAppDay9.csproj", "{FEBE1722-231E-4B98-B020-44B3BFB2F086}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PTTDotNetCore.ConsoleAppDay9", "PTTDotNetCore.ConsoleAppDay9\PTTDotNetCore.ConsoleAppDay9.csproj", "{FEBE1722-231E-4B98-B020-44B3BFB2F086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTTDotNetCore.ConsoleAppDay10", "PTTDotNetCore.ConsoleAppDay10\PTTDotNetCore.ConsoleAppDay10.csproj", "{D731F801-E257-42CB-A60B-5C985F0406C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowFormApp", "WindowFormApp", "{4043FC49-2E43-49BF-B3EA-EF675EEF20B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsAppExample", "WinFormsAppExample\WinFormsAppExample.csproj", "{B8DE5A28-C562-41EB-8409-4C9E3882B087}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +83,14 @@ Global
 		{FEBE1722-231E-4B98-B020-44B3BFB2F086}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEBE1722-231E-4B98-B020-44B3BFB2F086}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEBE1722-231E-4B98-B020-44B3BFB2F086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D731F801-E257-42CB-A60B-5C985F0406C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D731F801-E257-42CB-A60B-5C985F0406C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D731F801-E257-42CB-A60B-5C985F0406C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D731F801-E257-42CB-A60B-5C985F0406C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DE5A28-C562-41EB-8409-4C9E3882B087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DE5A28-C562-41EB-8409-4C9E3882B087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DE5A28-C562-41EB-8409-4C9E3882B087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DE5A28-C562-41EB-8409-4C9E3882B087}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +98,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{44333E1A-2C49-404C-93DA-BC0FFEBE2278} = {68ABFA1C-FE0B-4C7A-BC4E-68D7F605ECD3}
 		{3CE5F07B-10B7-4D08-B0F1-AAAA28C6CC57} = {68ABFA1C-FE0B-4C7A-BC4E-68D7F605ECD3}
+		{B8DE5A28-C562-41EB-8409-4C9E3882B087} = {4043FC49-2E43-49BF-B3EA-EF675EEF20B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C63C5935-F4DF-4EEE-8D34-058917FFF18D}
