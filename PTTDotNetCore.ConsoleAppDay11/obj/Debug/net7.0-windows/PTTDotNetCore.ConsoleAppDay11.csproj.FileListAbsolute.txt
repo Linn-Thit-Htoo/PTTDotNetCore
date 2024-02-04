@@ -1,0 +1,17 @@
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\bin\Debug\net7.0-windows\PTTDotNetCore.ConsoleAppDay11.exe
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\bin\Debug\net7.0-windows\PTTDotNetCore.ConsoleAppDay11.deps.json
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\bin\Debug\net7.0-windows\PTTDotNetCore.ConsoleAppDay11.runtimeconfig.json
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\bin\Debug\net7.0-windows\PTTDotNetCore.ConsoleAppDay11.dll
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\bin\Debug\net7.0-windows\PTTDotNetCore.ConsoleAppDay11.pdb
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\obj\Debug\net7.0-windows\PTTDotNetCore.ConsoleAppDay11.csproj.AssemblyReference.cache
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\obj\Debug\net7.0-windows\PTTDotNetCore.ConsoleAppDay11.Form1.resources
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\obj\Debug\net7.0-windows\PTTDotNetCore.ConsoleAppDay11.csproj.GenerateResource.cache
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\obj\Debug\net7.0-windows\PTTDotNetCore.ConsoleAppDay11.GeneratedMSBuildEditorConfig.editorconfig
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\obj\Debug\net7.0-windows\PTTDotNetCore.ConsoleAppDay11.AssemblyInfoInputs.cache
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\obj\Debug\net7.0-windows\PTTDotNetCore.ConsoleAppDay11.AssemblyInfo.cs
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\obj\Debug\net7.0-windows\PTTDotNetCore.ConsoleAppDay11.csproj.CoreCompileInputs.cache
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\obj\Debug\net7.0-windows\PTTDotNetCore.ConsoleAppDay11.dll
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\obj\Debug\net7.0-windows\refint\PTTDotNetCore.ConsoleAppDay11.dll
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\obj\Debug\net7.0-windows\PTTDotNetCore.ConsoleAppDay11.pdb
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\obj\Debug\net7.0-windows\PTTDotNetCore.ConsoleAppDay11.genruntimeconfig.cache
+D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay11\obj\Debug\net7.0-windows\ref\PTTDotNetCore.ConsoleAppDay11.dll
