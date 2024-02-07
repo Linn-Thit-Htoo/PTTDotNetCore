@@ -12,6 +12,7 @@ namespace PTTDotNetCore.ConsoleAppDay11
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            // from text fields
             string email = txtEmail.Text;
             string password = txtPassword.Text;
 
@@ -23,16 +24,28 @@ namespace PTTDotNetCore.ConsoleAppDay11
             else
             {
                 SqlConnection conn = new("Data Source=(local);Initial Catalog=PTT;User ID=sa;Password=sa@123");
+
+                conn.Open(); // open connection
+
+                // @ means query params. Use params due to the sql injection
                 string query = "SELECT * FROM Users WHERE Email = @Email AND Password = @Password";
 
+                // command
                 SqlCommand cmd = new(query, conn);
 
                 cmd.Parameters.AddWithValue("@Email", email);
                 cmd.Parameters.AddWithValue("@Password", password);
 
+                // adapter
                 SqlDataAdapter adapter = new(cmd);
+
+                // data table
                 DataTable dt = new();
+
+                // dt = adapter.Fill();
                 adapter.Fill(dt);
+
+                conn.Close(); // close connection
 
                 if (dt.Rows.Count > 0)
                 {
