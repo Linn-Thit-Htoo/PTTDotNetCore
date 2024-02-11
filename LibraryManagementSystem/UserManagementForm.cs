@@ -49,5 +49,12 @@ namespace LibraryManagementSystem
             addNewUserForm.Show();
             this.Hide();
         }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            EditUserForm editUserForm = new();
+            editUserForm.Show();
+            this.Hide();
+        }
     }
 }

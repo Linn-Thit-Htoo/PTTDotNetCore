@@ -29,9 +29,10 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            button1 = new Button();
             dgv1 = new DataGridView();
             label1 = new Label();
-            button1 = new Button();
+            btnEdit = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgv1).BeginInit();
             SuspendLayout();
@@ -40,6 +41,7 @@
             // 
             panel1.Anchor = AnchorStyles.None;
             panel1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            panel1.Controls.Add(btnEdit);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(dgv1);
             panel1.Controls.Add(label1);
@@ -47,6 +49,17 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1372, 751);
             panel1.TabIndex = 0;
+            // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.ActiveCaption;
+            button1.Location = new Point(3, 94);
+            button1.Name = "button1";
+            button1.Size = new Size(129, 48);
+            button1.TabIndex = 5;
+            button1.Text = "Add New User";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // dgv1
             // 
@@ -73,16 +86,16 @@
             label1.TabIndex = 3;
             label1.Text = "User Management";
             // 
-            // button1
+            // btnEdit
             // 
-            button1.BackColor = SystemColors.ActiveCaption;
-            button1.Location = new Point(3, 94);
-            button1.Name = "button1";
-            button1.Size = new Size(129, 48);
-            button1.TabIndex = 5;
-            button1.Text = "Add New User";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            btnEdit.BackColor = Color.FromArgb(192, 192, 255);
+            btnEdit.Location = new Point(1237, 98);
+            btnEdit.Name = "btnEdit";
+            btnEdit.Size = new Size(132, 44);
+            btnEdit.TabIndex = 6;
+            btnEdit.Text = "Edit";
+            btnEdit.UseVisualStyleBackColor = false;
+            btnEdit.Click += btnEdit_Click;
             // 
             // UserManagementForm
             // 
@@ -108,5 +121,6 @@
         private DataGridView dgv1;
         private Label label1;
         private Button button1;
+        private Button btnEdit;
     }
 }

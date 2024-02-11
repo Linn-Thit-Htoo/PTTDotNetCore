@@ -72,5 +72,12 @@ namespace LibraryManagementSystem
         {
             e.Handled = true;
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            UserManagementForm form = new();
+            form.Show();
+            this.Hide();
+        }
     }
 }

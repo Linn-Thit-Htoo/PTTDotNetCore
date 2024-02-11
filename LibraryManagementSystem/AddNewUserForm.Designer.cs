@@ -40,12 +40,14 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
+            btnBack = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.Anchor = AnchorStyles.None;
+            panel1.Controls.Add(btnBack);
             panel1.Controls.Add(lblUserRoleError);
             panel1.Controls.Add(lblEmailError);
             panel1.Controls.Add(lblUserNameError);
@@ -171,6 +173,17 @@
             label1.Text = "Add New User";
             label1.TextAlign = ContentAlignment.TopCenter;
             // 
+            // btnBack
+            // 
+            btnBack.BackColor = SystemColors.ControlDark;
+            btnBack.Location = new Point(296, 415);
+            btnBack.Name = "btnBack";
+            btnBack.Size = new Size(103, 44);
+            btnBack.TabIndex = 16;
+            btnBack.Text = "Back";
+            btnBack.UseVisualStyleBackColor = false;
+            btnBack.Click += btnBack_Click;
+            // 
             // AddNewUserForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -201,5 +214,6 @@
         private Label lblUserNameError;
         private Label lblUserRoleError;
         private Label lblEmailError;
+        private Button btnBack;
     }
 }
