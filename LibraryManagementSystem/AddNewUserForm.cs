@@ -1,4 +1,5 @@
-﻿using System.Data.SqlClient;
+﻿using System.Data;
+using System.Data.SqlClient;
 
 namespace LibraryManagementSystem
 {
@@ -36,6 +37,13 @@ namespace LibraryManagementSystem
 
                 if (!string.IsNullOrEmpty(userName) && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(role))
                 {
+                    bool isUserNameDuplicate = IsUserNameDuplicate(userName);
+                    if (isUserNameDuplicate)
+                    {
+                        MessageBox.Show("User name already exists!.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+
                     SqlConnection conn = new(connectionString);
                     conn.Open();
                     string query = "INSERT INTO Users (UserName, Email, UserRole, CreateDate, IsActive) VALUES (@UserName, @Email, @UserRole, @CreateDate, @IsActive)";
@@ -61,6 +69,27 @@ namespace LibraryManagementSystem
                         MessageBox.Show("Creating Fail.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        private bool IsUserNameDuplicate(string name)
+        {
+            try
+            {
+                SqlConnection conn = new(connectionString);
+                string query = "SELECT UserName, Email, UserRole FROM Users WHERE UserName = @UserName";
+                SqlCommand cmd = new(query, conn);
+                cmd.Parameters.AddWithValue("@UserName", name);
+                SqlDataAdapter adapter = new(cmd);
+                DataTable dt = new();
+                adapter.Fill(dt);
+                conn.Close();
+
+                return dt.Rows.Count > 0;
             }
             catch (Exception ex)
             {
