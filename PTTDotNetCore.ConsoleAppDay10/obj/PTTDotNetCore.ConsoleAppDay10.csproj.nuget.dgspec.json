@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PTTDotNetCore\\PTTDotNetCore\\PTTDotNetCore.ConsoleAppDay10\\PTTDotNetCore.ConsoleAppDay10.csproj": {}
+    "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\PTTDotNetCore.ConsoleAppDay10\\PTTDotNetCore.ConsoleAppDay10.csproj": {}
   },
   "projects": {
-    "D:\\PTTDotNetCore\\PTTDotNetCore\\PTTDotNetCore.ConsoleAppDay10\\PTTDotNetCore.ConsoleAppDay10.csproj": {
+    "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\PTTDotNetCore.ConsoleAppDay10\\PTTDotNetCore.ConsoleAppDay10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PTTDotNetCore\\PTTDotNetCore\\PTTDotNetCore.ConsoleAppDay10\\PTTDotNetCore.ConsoleAppDay10.csproj",
+        "projectUniqueName": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\PTTDotNetCore.ConsoleAppDay10\\PTTDotNetCore.ConsoleAppDay10.csproj",
         "projectName": "PTTDotNetCore.ConsoleAppDay10",
-        "projectPath": "D:\\PTTDotNetCore\\PTTDotNetCore\\PTTDotNetCore.ConsoleAppDay10\\PTTDotNetCore.ConsoleAppDay10.csproj",
+        "projectPath": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\PTTDotNetCore.ConsoleAppDay10\\PTTDotNetCore.ConsoleAppDay10.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\PTTDotNetCore\\PTTDotNetCore\\PTTDotNetCore.ConsoleAppDay10\\obj\\",
+        "outputPath": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\PTTDotNetCore.ConsoleAppDay10\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

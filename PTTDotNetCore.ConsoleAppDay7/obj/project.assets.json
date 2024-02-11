@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PTTDotNetCore\\PTTDotNetCore\\PTTDotNetCore.ConsoleAppDay7\\PTTDotNetCore.ConsoleAppDay7.csproj",
+      "projectUniqueName": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\PTTDotNetCore.ConsoleAppDay7\\PTTDotNetCore.ConsoleAppDay7.csproj",
       "projectName": "PTTDotNetCore.ConsoleAppDay7",
-      "projectPath": "D:\\PTTDotNetCore\\PTTDotNetCore\\PTTDotNetCore.ConsoleAppDay7\\PTTDotNetCore.ConsoleAppDay7.csproj",
+      "projectPath": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\PTTDotNetCore.ConsoleAppDay7\\PTTDotNetCore.ConsoleAppDay7.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\PTTDotNetCore\\PTTDotNetCore\\PTTDotNetCore.ConsoleAppDay7\\obj\\",
+      "outputPath": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\PTTDotNetCore.ConsoleAppDay7\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

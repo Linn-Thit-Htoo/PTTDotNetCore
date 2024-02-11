@@ -28,33 +28,85 @@
         /// </summary>
         private void InitializeComponent()
         {
+            panel1 = new Panel();
+            dgv1 = new DataGridView();
             label1 = new Label();
+            button1 = new Button();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgv1).BeginInit();
             SuspendLayout();
+            // 
+            // panel1
+            // 
+            panel1.Anchor = AnchorStyles.None;
+            panel1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            panel1.Controls.Add(button1);
+            panel1.Controls.Add(dgv1);
+            panel1.Controls.Add(label1);
+            panel1.Location = new Point(12, 20);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1372, 751);
+            panel1.TabIndex = 0;
+            // 
+            // dgv1
+            // 
+            dgv1.AllowUserToAddRows = false;
+            dgv1.AllowUserToDeleteRows = false;
+            dgv1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgv1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgv1.Location = new Point(3, 167);
+            dgv1.Margin = new Padding(3, 2, 3, 2);
+            dgv1.Name = "dgv1";
+            dgv1.ReadOnly = true;
+            dgv1.RowHeadersWidth = 51;
+            dgv1.RowTemplate.Height = 29;
+            dgv1.Size = new Size(1366, 563);
+            dgv1.TabIndex = 4;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Cambria", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(810, 73);
+            label1.Location = new Point(394, 15);
             label1.Name = "label1";
-            label1.Size = new Size(245, 94);
-            label1.TabIndex = 1;
-            label1.Text = "Login";
+            label1.Size = new Size(563, 75);
+            label1.TabIndex = 3;
+            label1.Text = "User Management";
+            // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.ActiveCaption;
+            button1.Location = new Point(3, 94);
+            button1.Name = "button1";
+            button1.Size = new Size(129, 48);
+            button1.TabIndex = 5;
+            button1.Text = "Add New User";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // UserManagementForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1924, 1055);
-            Controls.Add(label1);
+            ClientSize = new Size(1396, 783);
+            Controls.Add(panel1);
+            Margin = new Padding(3, 2, 3, 2);
+            MinimumSize = new Size(1400, 800);
             Name = "UserManagementForm";
             Text = "UserManagementForm";
+            FormClosed += UserManagementForm_FormClosed;
+            Load += UserManagementForm_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgv1).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
+        private Panel panel1;
+        private DataGridView dgv1;
         private Label label1;
+        private Button button1;
     }
 }

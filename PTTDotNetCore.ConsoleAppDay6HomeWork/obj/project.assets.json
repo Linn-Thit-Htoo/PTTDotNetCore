@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PTTDotNetCore\\PTTDotNetCore\\PTTDotNetCore.ConsoleAppDay6HomeWork\\PTTDotNetCore.ConsoleAppDay6HomeWork.csproj",
+      "projectUniqueName": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\PTTDotNetCore.ConsoleAppDay6HomeWork\\PTTDotNetCore.ConsoleAppDay6HomeWork.csproj",
       "projectName": "PTTDotNetCore.ConsoleAppDay6HomeWork",
-      "projectPath": "D:\\PTTDotNetCore\\PTTDotNetCore\\PTTDotNetCore.ConsoleAppDay6HomeWork\\PTTDotNetCore.ConsoleAppDay6HomeWork.csproj",
+      "projectPath": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\PTTDotNetCore.ConsoleAppDay6HomeWork\\PTTDotNetCore.ConsoleAppDay6HomeWork.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\PTTDotNetCore\\PTTDotNetCore\\PTTDotNetCore.ConsoleAppDay6HomeWork\\obj\\",
+      "outputPath": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\PTTDotNetCore.ConsoleAppDay6HomeWork\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

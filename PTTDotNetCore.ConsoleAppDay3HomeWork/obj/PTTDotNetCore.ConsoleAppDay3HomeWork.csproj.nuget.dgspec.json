@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PTTDotNetCore\\PTTDotNetCore\\PTTDotNetCore.ConsoleAppDay3HomeWork\\PTTDotNetCore.ConsoleAppDay3HomeWork.csproj": {}
+    "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\PTTDotNetCore.ConsoleAppDay3HomeWork\\PTTDotNetCore.ConsoleAppDay3HomeWork.csproj": {}
   },
   "projects": {
-    "D:\\PTTDotNetCore\\PTTDotNetCore\\PTTDotNetCore.ConsoleAppDay3HomeWork\\PTTDotNetCore.ConsoleAppDay3HomeWork.csproj": {
+    "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\PTTDotNetCore.ConsoleAppDay3HomeWork\\PTTDotNetCore.ConsoleAppDay3HomeWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PTTDotNetCore\\PTTDotNetCore\\PTTDotNetCore.ConsoleAppDay3HomeWork\\PTTDotNetCore.ConsoleAppDay3HomeWork.csproj",
+        "projectUniqueName": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\PTTDotNetCore.ConsoleAppDay3HomeWork\\PTTDotNetCore.ConsoleAppDay3HomeWork.csproj",
         "projectName": "PTTDotNetCore.ConsoleAppDay3HomeWork",
-        "projectPath": "D:\\PTTDotNetCore\\PTTDotNetCore\\PTTDotNetCore.ConsoleAppDay3HomeWork\\PTTDotNetCore.ConsoleAppDay3HomeWork.csproj",
+        "projectPath": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\PTTDotNetCore.ConsoleAppDay3HomeWork\\PTTDotNetCore.ConsoleAppDay3HomeWork.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\PTTDotNetCore\\PTTDotNetCore\\PTTDotNetCore.ConsoleAppDay3HomeWork\\obj\\",
+        "outputPath": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\PTTDotNetCore.ConsoleAppDay3HomeWork\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

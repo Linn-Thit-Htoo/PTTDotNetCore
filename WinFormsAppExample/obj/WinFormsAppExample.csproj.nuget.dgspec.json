@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PTTDotNetCore\\PTTDotNetCore\\WinFormsAppExample\\WinFormsAppExample.csproj": {}
+    "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\WinFormsAppExample\\WinFormsAppExample.csproj": {}
   },
   "projects": {
-    "D:\\PTTDotNetCore\\PTTDotNetCore\\WinFormsAppExample\\WinFormsAppExample.csproj": {
+    "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\WinFormsAppExample\\WinFormsAppExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PTTDotNetCore\\PTTDotNetCore\\WinFormsAppExample\\WinFormsAppExample.csproj",
+        "projectUniqueName": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\WinFormsAppExample\\WinFormsAppExample.csproj",
         "projectName": "WinFormsAppExample",
-        "projectPath": "D:\\PTTDotNetCore\\PTTDotNetCore\\WinFormsAppExample\\WinFormsAppExample.csproj",
+        "projectPath": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\WinFormsAppExample\\WinFormsAppExample.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\PTTDotNetCore\\PTTDotNetCore\\WinFormsAppExample\\obj\\",
+        "outputPath": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\WinFormsAppExample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

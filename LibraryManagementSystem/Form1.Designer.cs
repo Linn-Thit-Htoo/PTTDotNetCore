@@ -28,94 +28,114 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            txtEmail = new TextBox();
-            txtPassword = new TextBox();
-            label2 = new Label();
+            panel1 = new Panel();
+            btnLogin = new Button();
             label3 = new Label();
-            button1 = new Button();
+            label2 = new Label();
+            txtPassword = new TextBox();
+            txtEmail = new TextBox();
+            label1 = new Label();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
-            // label1
+            // panel1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Cambria", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(802, 46);
-            label1.Name = "label1";
-            label1.Size = new Size(245, 94);
-            label1.TabIndex = 0;
-            label1.Text = "Login";
+            panel1.Anchor = AnchorStyles.None;
+            panel1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            panel1.Controls.Add(btnLogin);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(txtPassword);
+            panel1.Controls.Add(txtEmail);
+            panel1.Controls.Add(label1);
+            panel1.Location = new Point(-153, 27);
+            panel1.Margin = new Padding(3, 2, 3, 2);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1362, 755);
+            panel1.TabIndex = 0;
             // 
-            // txtEmail
+            // btnLogin
             // 
-            txtEmail.Location = new Point(875, 268);
-            txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(270, 27);
-            txtEmail.TabIndex = 1;
-            // 
-            // txtPassword
-            // 
-            txtPassword.Location = new Point(875, 361);
-            txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(270, 27);
-            txtPassword.TabIndex = 2;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Cambria", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(684, 268);
-            label2.Name = "label2";
-            label2.Size = new Size(97, 33);
-            label2.TabIndex = 3;
-            label2.Text = "Email: ";
+            btnLogin.BackColor = Color.Cyan;
+            btnLogin.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnLogin.Location = new Point(823, 370);
+            btnLogin.Margin = new Padding(3, 2, 3, 2);
+            btnLogin.Name = "btnLogin";
+            btnLogin.Size = new Size(125, 37);
+            btnLogin.TabIndex = 11;
+            btnLogin.Text = "Login";
+            btnLogin.UseVisualStyleBackColor = false;
+            btnLogin.Click += btnLogin_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Cambria", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(684, 361);
+            label3.Location = new Point(545, 300);
             label3.Name = "label3";
-            label3.Size = new Size(146, 33);
-            label3.TabIndex = 4;
+            label3.Size = new Size(115, 26);
+            label3.TabIndex = 10;
             label3.Text = "Password: ";
             // 
-            // button1
+            // label2
             // 
-            button1.BackColor = Color.Cyan;
-            button1.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(1002, 454);
-            button1.Name = "button1";
-            button1.Size = new Size(143, 49);
-            button1.TabIndex = 5;
-            button1.Text = "Login";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            label2.AutoSize = true;
+            label2.Font = new Font("Cambria", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(545, 230);
+            label2.Name = "label2";
+            label2.Size = new Size(77, 26);
+            label2.TabIndex = 9;
+            label2.Text = "Email: ";
+            // 
+            // txtPassword
+            // 
+            txtPassword.Location = new Point(712, 300);
+            txtPassword.Margin = new Padding(3, 2, 3, 2);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(237, 23);
+            txtPassword.TabIndex = 8;
+            // 
+            // txtEmail
+            // 
+            txtEmail.Location = new Point(712, 230);
+            txtEmail.Margin = new Padding(3, 2, 3, 2);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(237, 23);
+            txtEmail.TabIndex = 7;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Cambria", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(648, 64);
+            label1.Name = "label1";
+            label1.Size = new Size(195, 75);
+            label1.TabIndex = 6;
+            label1.Text = "Login";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1924, 1055);
-            Controls.Add(button1);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(txtPassword);
-            Controls.Add(txtEmail);
-            Controls.Add(label1);
+            ClientSize = new Size(1221, 791);
+            Controls.Add(panel1);
+            Margin = new Padding(3, 2, 3, 2);
+            MinimumSize = new Size(600, 800);
             Name = "Form1";
             Text = "Form1";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private TextBox txtEmail;
-        private TextBox txtPassword;
-        private Label label2;
+        private Panel panel1;
+        private Button btnLogin;
         private Label label3;
-        private Button button1;
+        private Label label2;
+        private TextBox txtPassword;
+        private TextBox txtEmail;
+        private Label label1;
     }
 }

@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PTTDotNetCore\\PTTDotNetCore\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+      "projectUniqueName": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
       "projectName": "LibraryManagementSystem",
-      "projectPath": "D:\\PTTDotNetCore\\PTTDotNetCore\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+      "projectPath": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\PTTDotNetCore\\PTTDotNetCore\\LibraryManagementSystem\\obj\\",
+      "outputPath": "D:\\1 on 1 classes\\PTTDotNetCore\\Phyu-Thwe-Tun\\LibraryManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",

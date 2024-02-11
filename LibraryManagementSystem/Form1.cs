@@ -11,7 +11,7 @@ namespace LibraryManagementSystem
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
             try
             {
@@ -43,6 +43,9 @@ AND IsActive = @IsActive AND UserRole = @UserRole";
                 if (dt.Rows.Count > 0)
                 {
                     MessageBox.Show("Login Successful!", "Information!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    UserManagementForm userManagementForm = new();
+                    userManagementForm.Show();
+                    this.Hide();
                 }
                 else
                 {
