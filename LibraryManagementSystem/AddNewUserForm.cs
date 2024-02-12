@@ -38,9 +38,17 @@ namespace LibraryManagementSystem
                 if (!string.IsNullOrEmpty(userName) && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(role))
                 {
                     bool isUserNameDuplicate = IsUserNameDuplicate(userName);
+                    bool isEmailDuplicate = IsEmailDuplicate(email);
+
                     if (isUserNameDuplicate)
                     {
                         MessageBox.Show("User name already exists!.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+
+                    if (isEmailDuplicate)
+                    {
+                        MessageBox.Show("Email already exists!.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
 
@@ -84,6 +92,27 @@ namespace LibraryManagementSystem
                 string query = "SELECT UserName, Email, UserRole FROM Users WHERE UserName = @UserName";
                 SqlCommand cmd = new(query, conn);
                 cmd.Parameters.AddWithValue("@UserName", name);
+                SqlDataAdapter adapter = new(cmd);
+                DataTable dt = new();
+                adapter.Fill(dt);
+                conn.Close();
+
+                return dt.Rows.Count > 0;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        private bool IsEmailDuplicate(string email)
+        {
+            try
+            {
+                SqlConnection conn = new(connectionString);
+                string query = "SELECT UserName, Email, UserRole FROM Users WHERE Email = @Email";
+                SqlCommand cmd = new(query, conn);
+                cmd.Parameters.AddWithValue("@Email", email);
                 SqlDataAdapter adapter = new(cmd);
                 DataTable dt = new();
                 adapter.Fill(dt);
