@@ -74,8 +74,8 @@ namespace LibraryManagementSystem
 
                 if (comboBox.SelectedItem != null)
                 {
-                    string? selectedValue = comboBox.SelectedItem.ToString();
-                    selectedValue.Trim();
+                    string? selectedValue = comboBox.SelectedItem.ToString(); // user name
+                    selectedValue.Trim(); // remove white spaces
                     SqlConnection conn = new(connectionString);
                     conn.Open();
                     string query = "SELECT UserId, UserName, Email, UserRole FROM Users WHERE UserName = @UserName";
@@ -128,7 +128,7 @@ namespace LibraryManagementSystem
                 lblEmailError.Visible = string.IsNullOrEmpty(email);
                 lblUserRoleError.Visible = string.IsNullOrEmpty(role);
 
-                if (!string.IsNullOrEmpty(userName) && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(role))
+                if (id != 0 && !string.IsNullOrEmpty(userName) && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(role))
                 {
                     if (IsUserNameDuplicateById(id, userName))
                     {
