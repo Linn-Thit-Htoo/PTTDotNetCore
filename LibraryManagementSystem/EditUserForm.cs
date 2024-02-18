@@ -40,11 +40,13 @@ namespace LibraryManagementSystem
                 lblUserRoleError.Visible = false;
 
                 btnUpdate.Visible = false;
+                btnDelete.Visible = false;
 
                 SqlConnection conn = new(connectionString);
                 conn.Open();
-                string query = "SELECT UserName FROM Users";
+                string query = "SELECT UserName FROM Users WHERE IsActive = @IsActive";
                 SqlCommand cmd = new(query, conn);
+                cmd.Parameters.AddWithValue("@IsActive", 1);
                 SqlDataAdapter adapter = new(cmd);
                 DataTable dt = new();
                 adapter.Fill(dt);
@@ -98,6 +100,7 @@ namespace LibraryManagementSystem
                         cbo2.Visible = true;
 
                         btnUpdate.Visible = true;
+                        btnDelete.Visible = true;
 
                         DataRow row = dt.Rows[0];
                         long id = Convert.ToInt64(row["UserId"]);
@@ -142,25 +145,32 @@ namespace LibraryManagementSystem
                         return;
                     }
 
-                    SqlConnection conn = new(connectionString);
-                    conn.Open();
-                    string query = "UPDATE Users SET UserName = @UserName, Email = @Email, UserRole = @UserRole WHERE UserId = @UserId";
-                    SqlCommand cmd = new(query, conn);
-                    cmd.Parameters.AddWithValue("@UserId", id);
-                    cmd.Parameters.AddWithValue("@UserName", userName);
-                    cmd.Parameters.AddWithValue("@Email", email);
-                    cmd.Parameters.AddWithValue("@UserRole", role);
-                    int result = cmd.ExecuteNonQuery();
-                    conn.Close();
-
-                    if (result > 0)
+                    if (id != 0 && !string.IsNullOrEmpty(userName) && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(role))
                     {
-                        MessageBox.Show("Updating Successful.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        (new UserManagementForm()).Show();
-                        this.Hide();
-                        return;
+                        SqlConnection conn = new(connectionString);
+                        conn.Open();
+                        string query = "UPDATE Users SET UserName = @UserName, Email = @Email, UserRole = @UserRole WHERE UserId = @UserId";
+                        SqlCommand cmd = new(query, conn);
+                        cmd.Parameters.AddWithValue("@UserId", id);
+                        cmd.Parameters.AddWithValue("@UserName", userName);
+                        cmd.Parameters.AddWithValue("@Email", email);
+                        cmd.Parameters.AddWithValue("@UserRole", role);
+                        int result = cmd.ExecuteNonQuery();
+                        conn.Close();
+
+                        if (result > 0)
+                        {
+                            MessageBox.Show("Updating Successful.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            (new UserManagementForm()).Show();
+                            this.Hide();
+                            return;
+                        }
+                        MessageBox.Show("Updating Fail.", "Warning!", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
                     }
-                    MessageBox.Show("Updating Fail.", "Warning!", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+                    else
+                    {
+                        MessageBox.Show("Updating Fail.", "Warning!", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+                    }
                 }
             }
             catch (Exception ex)
@@ -219,6 +229,44 @@ namespace LibraryManagementSystem
         {
             (new UserManagementForm()).Show();
             this.Hide();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DialogResult confirmMessage = MessageBox.Show("Are you sure you want to delete?", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (confirmMessage == DialogResult.Yes)
+                {
+                    long id = Convert.ToInt64(txtUserId.Text);
+
+                    using SqlConnection conn = new(connectionString);
+                    conn.Open();
+                    string query = "UPDATE Users SET IsActive = @IsActive WHERE UserId = @UserId";
+                    using SqlCommand cmd = new(query, conn);
+                    cmd.Parameters.AddWithValue("@IsActive", 0);
+                    cmd.Parameters.AddWithValue("@UserId", id);
+
+                    int result = cmd.ExecuteNonQuery();
+                    conn.Close();
+
+                    if (result > 0)
+                    {
+                        DialogResult dialog = MessageBox.Show("Deleting Successful.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        if (dialog == DialogResult.OK)
+                        {
+                            (new UserManagementForm()).Show();
+                            this.Hide();
+                            return;
+                        }
+                    }
+                    MessageBox.Show("Deleting Fail.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
     }
 }

@@ -89,9 +89,10 @@ namespace LibraryManagementSystem
             try
             {
                 SqlConnection conn = new(connectionString);
-                string query = "SELECT UserName, Email, UserRole FROM Users WHERE UserName = @UserName";
+                string query = "SELECT UserName, Email, UserRole FROM Users WHERE UserName = @UserName AND IsActive = @IsActive";
                 SqlCommand cmd = new(query, conn);
                 cmd.Parameters.AddWithValue("@UserName", name);
+                cmd.Parameters.AddWithValue("@IsActive", 1);
                 SqlDataAdapter adapter = new(cmd);
                 DataTable dt = new();
                 adapter.Fill(dt);
@@ -110,9 +111,10 @@ namespace LibraryManagementSystem
             try
             {
                 SqlConnection conn = new(connectionString);
-                string query = "SELECT UserName, Email, UserRole FROM Users WHERE Email = @Email";
+                string query = "SELECT UserName, Email, UserRole FROM Users WHERE Email = @Email AND IsActive = @IsActive";
                 SqlCommand cmd = new(query, conn);
                 cmd.Parameters.AddWithValue("@Email", email);
+                cmd.Parameters.AddWithValue("@IsActive", 1);
                 SqlDataAdapter adapter = new(cmd);
                 DataTable dt = new();
                 adapter.Fill(dt);
@@ -136,6 +138,11 @@ namespace LibraryManagementSystem
             UserManagementForm form = new();
             form.Show();
             this.Hide();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

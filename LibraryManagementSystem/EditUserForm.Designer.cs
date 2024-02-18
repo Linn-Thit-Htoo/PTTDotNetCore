@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            btnDelete = new Button();
             btnBack = new Button();
             txtUserId = new TextBox();
             lblUserId = new Label();
@@ -52,6 +53,7 @@
             // 
             panel1.Anchor = AnchorStyles.None;
             panel1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            panel1.Controls.Add(btnDelete);
             panel1.Controls.Add(btnBack);
             panel1.Controls.Add(txtUserId);
             panel1.Controls.Add(lblUserId);
@@ -73,6 +75,18 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1162, 721);
             panel1.TabIndex = 0;
+            // 
+            // btnDelete
+            // 
+            btnDelete.BackColor = Color.Red;
+            btnDelete.Location = new Point(288, 579);
+            btnDelete.Margin = new Padding(3, 4, 3, 4);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(141, 59);
+            btnDelete.TabIndex = 29;
+            btnDelete.Text = "Delete";
+            btnDelete.UseVisualStyleBackColor = false;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnBack
             // 
@@ -269,5 +283,6 @@
         private TextBox txtUserId;
         private Label lblUserId;
         private Button btnBack;
+        private Button btnDelete;
     }
 }
