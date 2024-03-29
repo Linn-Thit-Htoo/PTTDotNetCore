@@ -13,3 +13,18 @@ D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay3HomeWork\obj\Debug\ne
 D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay3HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay3HomeWork.pdb
 D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay3HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay3HomeWork.genruntimeconfig.cache
 D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay3HomeWork\obj\Debug\net7.0\ref\PTTDotNetCore.ConsoleAppDay3HomeWork.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay3HomeWork\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay3HomeWork.exe
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay3HomeWork\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay3HomeWork.deps.json
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay3HomeWork\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay3HomeWork.runtimeconfig.json
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay3HomeWork\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay3HomeWork.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay3HomeWork\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay3HomeWork.pdb
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay3HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay3HomeWork.csproj.AssemblyReference.cache
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay3HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay3HomeWork.GeneratedMSBuildEditorConfig.editorconfig
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay3HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay3HomeWork.AssemblyInfoInputs.cache
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay3HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay3HomeWork.AssemblyInfo.cs
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay3HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay3HomeWork.csproj.CoreCompileInputs.cache
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay3HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay3HomeWork.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay3HomeWork\obj\Debug\net7.0\refint\PTTDotNetCore.ConsoleAppDay3HomeWork.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay3HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay3HomeWork.pdb
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay3HomeWork\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay3HomeWork.genruntimeconfig.cache
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay3HomeWork\obj\Debug\net7.0\ref\PTTDotNetCore.ConsoleAppDay3HomeWork.dll

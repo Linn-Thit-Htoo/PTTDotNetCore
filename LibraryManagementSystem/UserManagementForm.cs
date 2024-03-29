@@ -49,5 +49,10 @@ namespace LibraryManagementSystem
             editUserForm.Show();
             this.Hide();
         }
+
+        private void dgv1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

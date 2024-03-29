@@ -15,3 +15,20 @@ D:\PTTDotNetCore\PTTDotNetCore\WinFormsAppExample\obj\Debug\net7.0-windows\refin
 D:\PTTDotNetCore\PTTDotNetCore\WinFormsAppExample\obj\Debug\net7.0-windows\WinFormsAppExample.pdb
 D:\PTTDotNetCore\PTTDotNetCore\WinFormsAppExample\obj\Debug\net7.0-windows\WinFormsAppExample.genruntimeconfig.cache
 D:\PTTDotNetCore\PTTDotNetCore\WinFormsAppExample\obj\Debug\net7.0-windows\ref\WinFormsAppExample.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\bin\Debug\net7.0-windows\WinFormsAppExample.exe
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\bin\Debug\net7.0-windows\WinFormsAppExample.deps.json
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\bin\Debug\net7.0-windows\WinFormsAppExample.runtimeconfig.json
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\bin\Debug\net7.0-windows\WinFormsAppExample.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\bin\Debug\net7.0-windows\WinFormsAppExample.pdb
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\obj\Debug\net7.0-windows\WinFormsAppExample.csproj.AssemblyReference.cache
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\obj\Debug\net7.0-windows\WinFormsAppExample.Form1.resources
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\obj\Debug\net7.0-windows\WinFormsAppExample.csproj.GenerateResource.cache
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\obj\Debug\net7.0-windows\WinFormsAppExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\obj\Debug\net7.0-windows\WinFormsAppExample.AssemblyInfoInputs.cache
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\obj\Debug\net7.0-windows\WinFormsAppExample.AssemblyInfo.cs
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\obj\Debug\net7.0-windows\WinFormsAppExample.csproj.CoreCompileInputs.cache
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\obj\Debug\net7.0-windows\WinFormsAppExample.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\obj\Debug\net7.0-windows\refint\WinFormsAppExample.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\obj\Debug\net7.0-windows\WinFormsAppExample.pdb
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\obj\Debug\net7.0-windows\WinFormsAppExample.genruntimeconfig.cache
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\WinFormsAppExample\obj\Debug\net7.0-windows\ref\WinFormsAppExample.dll

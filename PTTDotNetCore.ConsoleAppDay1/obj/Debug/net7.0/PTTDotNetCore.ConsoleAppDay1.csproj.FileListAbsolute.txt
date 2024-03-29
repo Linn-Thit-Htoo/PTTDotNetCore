@@ -13,3 +13,18 @@ D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay1\obj\Debug\net7.0\ref
 D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay1\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay1.pdb
 D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay1\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay1.genruntimeconfig.cache
 D:\PTTDotNetCore\PTTDotNetCore\PTTDotNetCore.ConsoleAppDay1\obj\Debug\net7.0\ref\PTTDotNetCore.ConsoleAppDay1.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay1\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay1.exe
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay1\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay1.deps.json
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay1\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay1.runtimeconfig.json
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay1\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay1.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay1\bin\Debug\net7.0\PTTDotNetCore.ConsoleAppDay1.pdb
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay1\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay1.csproj.AssemblyReference.cache
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay1\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay1.GeneratedMSBuildEditorConfig.editorconfig
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay1\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay1.AssemblyInfoInputs.cache
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay1\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay1.AssemblyInfo.cs
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay1\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay1.csproj.CoreCompileInputs.cache
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay1\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay1.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay1\obj\Debug\net7.0\refint\PTTDotNetCore.ConsoleAppDay1.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay1\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay1.pdb
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay1\obj\Debug\net7.0\PTTDotNetCore.ConsoleAppDay1.genruntimeconfig.cache
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\PTTDotNetCore.ConsoleAppDay1\obj\Debug\net7.0\ref\PTTDotNetCore.ConsoleAppDay1.dll

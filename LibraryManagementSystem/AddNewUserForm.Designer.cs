@@ -132,6 +132,7 @@
             cbo1.Name = "cbo1";
             cbo1.Size = new Size(267, 28);
             cbo1.TabIndex = 11;
+            cbo1.SelectedIndexChanged += cbo1_SelectedIndexChanged;
             cbo1.KeyPress += cbo1_KeyPress;
             // 
             // txtEmail
