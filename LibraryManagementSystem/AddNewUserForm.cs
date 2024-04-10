@@ -5,7 +5,6 @@ namespace LibraryManagementSystem
 {
     public partial class AddNewUserForm : Form
     {
-        string connectionString = "Data Source=(local);Initial Catalog=PTTWindowFormProject;User ID=sa;Password=sa@123";
         public AddNewUserForm()
         {
             InitializeComponent();
@@ -52,15 +51,14 @@ namespace LibraryManagementSystem
                         return;
                     }
 
-                    SqlConnection conn = new(connectionString);
+                    SqlConnection conn = new(GetConnectionString._conStr);
                     conn.Open();
-                    string query = "INSERT INTO Users (UserName, Email, UserRole, CreateDate, IsActive) VALUES (@UserName, @Email, @UserRole, @CreateDate, @IsActive)";
+                    string query = "INSERT INTO Users (UserName, Email, UserRole, IsActive) VALUES (@UserName, @Email, @UserRole, @CreateDate, @IsActive)";
 
                     SqlCommand cmd = new(query, conn);
                     cmd.Parameters.AddWithValue("@UserName", userName);
                     cmd.Parameters.AddWithValue("@Email", email);
                     cmd.Parameters.AddWithValue("@UserRole", role);
-                    cmd.Parameters.AddWithValue("@CreateDate", DateTime.Now);
                     cmd.Parameters.AddWithValue("@IsActive", 1);
 
                     int result = cmd.ExecuteNonQuery();
@@ -88,7 +86,7 @@ namespace LibraryManagementSystem
         {
             try
             {
-                SqlConnection conn = new(connectionString);
+                SqlConnection conn = new(GetConnectionString._conStr);
                 string query = "SELECT UserName, Email, UserRole FROM Users WHERE UserName = @UserName AND IsActive = @IsActive";
                 SqlCommand cmd = new(query, conn);
                 cmd.Parameters.AddWithValue("@UserName", name);
@@ -110,7 +108,7 @@ namespace LibraryManagementSystem
         {
             try
             {
-                SqlConnection conn = new(connectionString);
+                SqlConnection conn = new(GetConnectionString._conStr);
                 string query = "SELECT UserName, Email, UserRole FROM Users WHERE Email = @Email AND IsActive = @IsActive";
                 SqlCommand cmd = new(query, conn);
                 cmd.Parameters.AddWithValue("@Email", email);

@@ -48,20 +48,19 @@
             panel1.Controls.Add(txtPassword);
             panel1.Controls.Add(txtEmail);
             panel1.Controls.Add(label1);
-            panel1.Location = new Point(-153, 27);
-            panel1.Margin = new Padding(3, 2, 3, 2);
+            panel1.Location = new Point(-175, 36);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1362, 755);
+            panel1.Size = new Size(1557, 1007);
             panel1.TabIndex = 0;
+            panel1.Paint += panel1_Paint;
             // 
             // btnLogin
             // 
             btnLogin.BackColor = Color.Cyan;
             btnLogin.Font = new Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btnLogin.Location = new Point(823, 370);
-            btnLogin.Margin = new Padding(3, 2, 3, 2);
+            btnLogin.Location = new Point(941, 493);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(125, 37);
+            btnLogin.Size = new Size(143, 49);
             btnLogin.TabIndex = 11;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = false;
@@ -71,9 +70,9 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Cambria", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(545, 300);
+            label3.Location = new Point(623, 400);
             label3.Name = "label3";
-            label3.Size = new Size(115, 26);
+            label3.Size = new Size(146, 33);
             label3.TabIndex = 10;
             label3.Text = "Password: ";
             // 
@@ -81,46 +80,43 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Cambria", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(545, 230);
+            label2.Location = new Point(623, 307);
             label2.Name = "label2";
-            label2.Size = new Size(77, 26);
+            label2.Size = new Size(97, 33);
             label2.TabIndex = 9;
             label2.Text = "Email: ";
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(712, 300);
-            txtPassword.Margin = new Padding(3, 2, 3, 2);
+            txtPassword.Location = new Point(814, 400);
             txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(237, 23);
+            txtPassword.Size = new Size(270, 27);
             txtPassword.TabIndex = 8;
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(712, 230);
-            txtEmail.Margin = new Padding(3, 2, 3, 2);
+            txtEmail.Location = new Point(814, 307);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(237, 23);
+            txtEmail.Size = new Size(270, 27);
             txtEmail.TabIndex = 7;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Cambria", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(648, 64);
+            label1.Location = new Point(741, 85);
             label1.Name = "label1";
-            label1.Size = new Size(195, 75);
+            label1.Size = new Size(245, 94);
             label1.TabIndex = 6;
             label1.Text = "Login";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1221, 791);
+            ClientSize = new Size(1395, 1055);
             Controls.Add(panel1);
-            Margin = new Padding(3, 2, 3, 2);
-            MinimumSize = new Size(600, 800);
+            MinimumSize = new Size(683, 1028);
             Name = "Form1";
             Text = "Form1";
             panel1.ResumeLayout(false);

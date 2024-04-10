@@ -5,7 +5,6 @@ namespace LibraryManagementSystem
 {
     public partial class UserManagementForm : Form
     {
-        string connectionString = "Data Source=(local);Initial Catalog=PTTWindowFormProject;User ID=sa;Password=sa@123";
         public UserManagementForm()
         {
             InitializeComponent();
@@ -13,15 +12,14 @@ namespace LibraryManagementSystem
 
         private void UserManagementForm_Load(object sender, EventArgs e)
         {
-            SqlConnection conn = new(connectionString);
+            SqlConnection conn = new(GetConnectionString._conStr);
             string query = @"SELECT [UserId]
       ,[UserName]
       ,[Email]
       ,[Password]
       ,[UserRole]
-      ,[CreateDate]
       ,[IsActive]
-  FROM [PTTWindowFormProject].[dbo].[Users] WHERE IsActive = @IsActive";
+  FROM [dbo].[Users] WHERE IsActive = @IsActive";
             SqlCommand cmd = new(query, conn);
             cmd.Parameters.AddWithValue("@IsActive", 1);
             SqlDataAdapter adapter = new(cmd);

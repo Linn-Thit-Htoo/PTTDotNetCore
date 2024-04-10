@@ -26,7 +26,8 @@ namespace LibraryManagementSystem
 
                 SqlConnection conn = new(connectionString);
                 conn.Open();
-                string query = @"SELECT UserId, UserName, Email, UserRole, IsActive FROM Users WHERE Email = @Email AND Password = @Password
+                string query = @"SELECT UserId, UserName, Email, UserRole, IsActive FROM Users WHERE Email = @Email 
+AND Password = @Password
 AND IsActive = @IsActive AND UserRole = @UserRole";
                 SqlCommand cmd = new(query, conn);
 
@@ -56,6 +57,11 @@ AND IsActive = @IsActive AND UserRole = @UserRole";
             {
                 throw new Exception(ex.Message);
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -1,20 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Security.AccessControl;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace LibraryManagementSystem
 {
     public partial class EditUserForm : Form
     {
-        string connectionString = "Data Source=(local);Initial Catalog=PTTWindowFormProject;User ID=sa;Password=sa@123";
         public EditUserForm()
         {
             InitializeComponent();
@@ -42,7 +32,7 @@ namespace LibraryManagementSystem
                 btnUpdate.Visible = false;
                 btnDelete.Visible = false;
 
-                SqlConnection conn = new(connectionString);
+                SqlConnection conn = new(GetConnectionString._conStr);
                 conn.Open();
                 string query = "SELECT UserName FROM Users WHERE IsActive = @IsActive";
                 SqlCommand cmd = new(query, conn);
@@ -77,8 +67,8 @@ namespace LibraryManagementSystem
                 if (comboBox.SelectedItem != null)
                 {
                     string? selectedValue = comboBox.SelectedItem.ToString(); // user name
-                    selectedValue.Trim(); // remove white spaces
-                    SqlConnection conn = new(connectionString);
+                    selectedValue?.Trim(); // remove white spaces
+                    SqlConnection conn = new(GetConnectionString._conStr);
                     conn.Open();
                     string query = "SELECT UserId, UserName, Email, UserRole FROM Users WHERE UserName = @UserName";
                     SqlCommand cmd = new(query, conn);
@@ -147,7 +137,7 @@ namespace LibraryManagementSystem
 
                     if (id != 0 && !string.IsNullOrEmpty(userName) && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(role))
                     {
-                        SqlConnection conn = new(connectionString);
+                        SqlConnection conn = new(GetConnectionString._conStr);
                         conn.Open();
                         string query = "UPDATE Users SET UserName = @UserName, Email = @Email, UserRole = @UserRole WHERE UserId = @UserId";
                         SqlCommand cmd = new(query, conn);
@@ -184,7 +174,7 @@ namespace LibraryManagementSystem
         {
             try
             {
-                SqlConnection conn = new(connectionString);
+                SqlConnection conn = new(GetConnectionString._conStr);
                 conn.Open();
                 string query = "SELECT UserId, UserName, Email, UserRole, CreateDate, IsActive FROM Users WHERE UserName = @UserName AND UserId != @UserId";
                 SqlCommand cmd = new(query, conn);
@@ -207,7 +197,7 @@ namespace LibraryManagementSystem
         {
             try
             {
-                SqlConnection conn = new(connectionString);
+                SqlConnection conn = new(GetConnectionString._conStr);
                 string query = "SELECT UserName, Email, UserRole FROM Users WHERE Email = @Email AND UserId != @UserId";
                 SqlCommand cmd = new(query, conn);
                 cmd.Parameters.AddWithValue("@UserId", id);
@@ -240,7 +230,7 @@ namespace LibraryManagementSystem
                 {
                     long id = Convert.ToInt64(txtUserId.Text);
 
-                    using SqlConnection conn = new(connectionString);
+                    using SqlConnection conn = new(GetConnectionString._conStr);
                     conn.Open();
                     string query = "UPDATE Users SET IsActive = @IsActive WHERE UserId = @UserId";
                     using SqlCommand cmd = new(query, conn);

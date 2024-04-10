@@ -14,3 +14,7 @@ D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\BasicCRUD\obj\Debug\BasicCRUD.exe
 D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\BasicCRUD\obj\Debug\BasicCRUD.pdb
 D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\BasicCRUD\obj\Debug\BasicCRUD.CreateCategoryForm.resources
 D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\BasicCRUD\obj\Debug\BasicCRUD.EditCategoryForm.resources
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\BasicCRUD\bin\Debug\BasicCRUD.exe.manifest
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\BasicCRUD\bin\Debug\BasicCRUD.application
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\BasicCRUD\obj\Debug\BasicCRUD.exe.manifest
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\BasicCRUD\obj\Debug\BasicCRUD.application
