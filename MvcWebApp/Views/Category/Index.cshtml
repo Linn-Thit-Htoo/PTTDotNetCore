@@ -1,4 +1,28 @@
-﻿@{
+﻿@using MvcWebApp.Models.Entities;
+@model List<CategoryDataModel>;
+
+@{
     ViewData["Title"] = "Category Management";
 }
 <h1>Category Management</h1>
+<a class="btn btn-outline-primary" href="/Category/CreateCategory">Create</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Category ID</th>
+            <th>Category Name</th>
+            <th>Is Active</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CategoryId</td>
+                <td>@item.CategoryName</td>
+                <td>@item.IsActive</td>
+            </tr>
+        }
+    </tbody>
+</table>

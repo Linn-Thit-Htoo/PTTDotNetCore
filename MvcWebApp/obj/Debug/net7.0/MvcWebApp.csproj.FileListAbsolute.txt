@@ -29,3 +29,11 @@ D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\MvcWebApp\obj\Debug\net7.0\refint\
 D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\MvcWebApp\obj\Debug\net7.0\MvcWebApp.pdb
 D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\MvcWebApp\obj\Debug\net7.0\MvcWebApp.genruntimeconfig.cache
 D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\MvcWebApp\obj\Debug\net7.0\ref\MvcWebApp.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\MvcWebApp\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\MvcWebApp\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\MvcWebApp\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\MvcWebApp\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\MvcWebApp\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\MvcWebApp\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\MvcWebApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\1 on 1 classes\PTTDotNetCore\Phyu-Thwe-Tun\MvcWebApp\obj\Debug\net7.0\MvcWebApp.csproj.CopyComplete
